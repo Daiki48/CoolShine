@@ -1,0 +1,26 @@
+{
+  "name": "coolshine",
+  "displayName": "CoolShine",
+  "publisher": "Daiki",
+  "description": "VSCode Color Scheme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "CoolShine",
+        "uiTheme": "vs",
+        "path": "./themes/CoolShine-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Daiki48/CoolShine.git"
+  }
+}
